@@ -1,0 +1,79 @@
+html {
+  font-family: monospace;
+}
+
+body {
+  margin-top: 50px;
+}
+
+header {
+  justify-self: center;
+  width: 500px;
+  height: 80px;
+  background-color: yellow;
+  border: 1px solid lightgrey;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 10px 5px 0px black;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  justify-self: center;
+}
+
+h2 {
+  justify-self: center;
+}
+
+p {
+  justify-self: center;
+  color: lightgrey;
+}
+
+.appBody {
+  justify-self: center;
+  width: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 10px 5px 0px black;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+
+form {
+  justify-self: center;
+  justify-items: center;
+}
+
+.taskInput {
+  margin-top: 10px;
+}
+
+.submitButton {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: yellow;
+  width: 100px;
+  height: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-radius: 2px;
+}
+
+.tasks {
+  justify-self: center;
+  margin-bottom: 50px;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+footer {
+  margin-top: 50px;
+}
