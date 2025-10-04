@@ -59,9 +59,10 @@ taskContainer.addEventListener("change", (event) => {
   }
 });
 // --------------------------------------------------------------------------
-if ((taskContainer.value = "") {
-    const wellDoneText = document.createElement("text");
-    wellDoneText.textContent = "You haven't got any task to do. Enjoy your day! 🍹🏝️"
-})
-  // --------------------------------------------------------------------------
-  form.addEventListener("submit", handleSubmit);
+if ((taskContainer.value = "")) {
+  const wellDoneText = document.createElement("text");
+  wellDoneText.textContent =
+    "You haven't got any task to do. Enjoy your day! 🍹🏝️";
+}
+// --------------------------------------------------------------------------
+form.addEventListener("submit", handleSubmit);
